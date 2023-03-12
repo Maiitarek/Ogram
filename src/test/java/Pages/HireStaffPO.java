@@ -18,9 +18,7 @@ public class HireStaffPO extends BaseClass{
       driver = BaseClass.driver;
    };
 
-   @FindBy(how = How.XPATH,using = "//div[@class='SearchInput ']/child::input")
-   WebElement searchInput;
-
+   WebElement searchInput = driver.findElement(By.xpath("//div[@class='SearchInput ']/child::input"));
 
    @FindBy(how = How.CLASS_NAME,using = "Button Stepper__rightContainer__backButton  ")
    WebElement backButton;

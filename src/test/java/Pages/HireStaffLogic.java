@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class HireStaffLogic extends HireStaffPO {
 
 
+
     public void searchStaffType(String staffType) {
 
         WebDriverWait wait = new WebDriverWait(driver, 20);
@@ -32,7 +33,7 @@ public class HireStaffLogic extends HireStaffPO {
 
             for (int i = 1; i <= StaffType.size(); i++) {
 
-                //int i=0;
+
                 StaffType = driver.findElements(By.xpath("//div[@class='JobDraftCategory']/div[@class='JobDraftCategory__list']//child::span"));
                 wait.until(ExpectedConditions.visibilityOf(StaffType.get(i-1)));
                 StaffType.get(i-1).click();

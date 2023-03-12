@@ -18,16 +18,16 @@ Scenario: As a User I should be able to select any type of Staff to hire
 
     | staffType                    |
     | Admin Assistant/Receptionist |
-#    | Admin Data Entry             |
-#    | Assistant Chef               |
-#    | Barback                      |
-#    | Barista                      |
-#    | Bartender                    |
-#    | Bouncer                      |
-#    | Butcher                      |
-#    | Cashier                      |
-#    | Chef De Partie               |
-#    | Head Chef                    |
+    | Admin Data Entry             |
+    | Assistant Chef               |
+    | Barback                      |
+    | Barista                      |
+    | Bartender                    |
+    | Bouncer                      |
+    | Butcher                      |
+    | Cashier                      |
+    | Chef De Partie               |
+    | Head Chef                    |
 
 
 

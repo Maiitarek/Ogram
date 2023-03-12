@@ -35,6 +35,26 @@ public class BaseClass {
 
     }
 
+    public void signInPage(){
+
+
+            Reporter.log("=====Browser Session Started=====", true);
+
+            System.setProperty("webdriver.chrome.driver","./Tools\\chromedriver.exe");
+
+
+
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
+
+
+
+            driver.get("https://app.ogram.co/uae/");
+
+            Reporter.log("=====Application Started=====", true);
+
+    }
+
     @AfterClass
     public void closeApplication()
     {
